@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int n,x;
+	    cin>>n>>x;
+	    if(n<=6)
+	    {
+	        cout<<x<<endl;
+	    }
+	    else
+	    {
+	        if(n%6==0){
+	    //NUMBER OF SUBSCRIPTION NEEDED N/6;
+	    int member=n/6;
+	    int mini_sub=member*x; 
+	    cout<<mini_sub<<endl;}
+	    else{
+	        int member=(n/6)+1;
+	        int mini_sub=member*x;
+	        cout<<mini_sub<<endl;
+	    }
+	    }
+	    
+	}// your code goes here
+	return 0;
+}
