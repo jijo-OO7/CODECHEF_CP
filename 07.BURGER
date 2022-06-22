@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+        int t;
+        cin>>t;
+        while(t--)
+        {
+            int patty,bun;
+            cin>>patty>>bun;
+            //case1:
+            if(patty>bun){
+             cout<<bun<<endl;
+            }
+            if(bun>patty)
+            {
+                cout<<patty<<endl;
+            }
+            if(patty==bun)
+            {
+                cout<<patty<<endl;
+            }
+            
+        }
+	// your code goes here
+	return 0;
+}
